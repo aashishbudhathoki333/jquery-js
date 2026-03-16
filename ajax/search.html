@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Search Example</h2>
+    <input type="text" onkeyup="searchData(this.value)" />
+    <p id="result"></p>
+    <script>
+      function searchData(str) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("result").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "search.txt", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
+</html>
