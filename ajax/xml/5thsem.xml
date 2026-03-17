@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+<student id="S10001">
+<name>
+<first>Aashish</first>
+<last>Budhathoki</last>
+</name>
+<age>22</age>
+<course>Computer Science</course>
+<address>
+<city>Itahari</city>
+<zipcode>10001</zipcode>
+</address>
+<email>aashishbudhathoki03@gmail.com</email>
+</student>
+<student id="S10002">
+<name>
+<first>Ankit</first>
+<last>Sangaula</last>
+</name>
+<age>20</age>
+<course>Computer Science</course>
+<address>
+<city>Itahari</city>
+<zipcode>10008</zipcode>
+</address>
+<email>ankitsangaula@gmail.com</email>
+</student>
+<student id="S10003">
+<name>
+<first>Hari</first>
+<last>Adhikari</last>
+</name>
+<age>20</age>
+<course>Computer Science</course>
+<address>
+<city>Itahari</city>
+<zipcode>10009</zipcode>
+</address>
+<email>hariadhikari@gmail.com</email>
+</student>
+</school>

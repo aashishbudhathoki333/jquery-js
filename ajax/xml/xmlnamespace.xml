@@ -1,0 +1,9 @@
+<root xmlns:school="http://school.com"
+xmlns:furniture="http://furniture.com">
+<school:table>
+<school:name>Ram</school:name>
+</school:table>
+<furniture:table>
+<furniture:length>200</furniture:length>
+</furniture:table>
+</root>
